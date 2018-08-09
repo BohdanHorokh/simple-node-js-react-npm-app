@@ -14,6 +14,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "strip-ansi": "^4.0.0"
+    "strip-ansi": "^4.0.0",
+    "react-scripts": "1.1.4"
   }
 }
