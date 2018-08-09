@@ -11,7 +11,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'npm install -g npm@latest' 
+                sh 'npm install -g npm@latest' ,
+                sh 'rm -rf node_modules' ,
+                sh 'npm install ' 
             }
         }
         stage('Test') {
