@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh 'npm install -g npm@latest' 
                 sh 'rm -rf node_modules' 
-                sh 'npm install ' 
+                sh 'npm install -g npm@latest' 
             }
         }
         stage('Test') {
